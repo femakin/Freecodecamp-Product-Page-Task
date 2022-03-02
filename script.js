@@ -1,10 +1,10 @@
-// // var x = document.getElementById("hamburger");
-// // var navul = document.getElementById("nav-ul");
+var x = document.getElementById("hamburger");
+var navul = document.getElementById("nav-ul");
 
-// // x.addEventListener("click", () => {
-// //   navul.classList.toggle("show");
-// //   // console.log(x)
-// // });
+x.addEventListener("click", () => {
+  navul.classList.toggle("show");
+  // console.log(x)
+});
 
 
 
@@ -71,16 +71,16 @@
 
 
 
-function rot13(str) {
-  const input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-    const output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
-    let encoded = '';
-    for (let i=0; i < str.length; i++) {
-        const index = input.indexOf(str[i]);
-        encoded += output[index];
-    }
+// function rot13(str) {
+//   const input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+//     const output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
+//     let encoded = '';
+//     for (let i=0; i < str.length; i++) {
+//         const index = input.indexOf(str[i]);
+//         encoded += output[index];
+//     }
 
-    return encoded;
-}
+//     return encoded;
+// }
 
-rot13("SERR PBQR PNZC");
+// rot13("SERR PBQR PNZC");
